@@ -51,6 +51,7 @@ CREATE TABLE Tariffs (
     PricePerKilometer MONEY
 );
 
+/*
 -- Создание таблицы зарплат
 CREATE TABLE Salary (
     EmployeeID INT,
@@ -59,6 +60,7 @@ CREATE TABLE Salary (
     SalaryAmount MONEY,
     FOREIGN KEY (EmployeeID) REFERENCES Employees (EmployeeID)
 );
+*/
 
 -- Создание таблицы пассажиров
 CREATE TABLE Passengers (
