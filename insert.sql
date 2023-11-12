@@ -75,7 +75,6 @@ INSERT INTO Calls (CarID, CallDate, PickupTime, DropOffTime, PickupLocation, Dro
 INSERT INTO Calls (CarID, CallDate, PickupTime, DropOffTime, PickupLocation, DropOffLocation, Distance, WaitTimePenalty, PaymentMethod, CustomerMark, PassengerID, TariffID) VALUES
 (5, '2023-10-24', '07:30:00', '07:45:00', 'площадь Ленина', 'улица Гагарина', 7, 0, 'Картой', 'Отлично!', 5, 2)
 INSERT INTO Calls (CarID, CallDate, PickupTime, DropOffTime, PickupLocation, DropOffLocation, Distance, WaitTimePenalty, PaymentMethod, CustomerMark, PassengerID, TariffID) VALUES
-INSERT INTO Calls (CarID, CallDate, PickupTime, DropOffTime, PickupLocation, DropOffLocation, Distance, WaitTimePenalty, PaymentMethod, CustomerMark, PassengerID, TariffID) VALUES
 (6, '2023-10-25', '09:10:00', '09:50:00', 'площадь Мира', 'улица Первая', 17, 3, 'Наличными', 'Хорошо', 6, 3)
 INSERT INTO Calls (CarID, CallDate, PickupTime, DropOffTime, PickupLocation, DropOffLocation, Distance, WaitTimePenalty, PaymentMethod, CustomerMark, PassengerID, TariffID) VALUES
 (7, '2023-10-26', '18:45:00', '19:55:00', 'улица Пушкина', 'улица Вторая', 32, 7, 'Картой', 'Средне', 7, 1)

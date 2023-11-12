@@ -43,3 +43,12 @@ SELECT * FROM availableDrivers
 
 -- зарплата всех водителей за вчерашний день
 SELECT * FROM yesterdayDriverSalary
+
+-- Прибыль за месяц
+EXEC CalculateTotalIncomeLastMonth
+
+-- Все вызовы за определенный интервал
+EXEC GetPassengersByTimeInterval '2023-11-01', '2023-11-05'
+
+-- Вывести конечные точки пассажира по номеру телефона
+EXEC GetPassengerDOL -- НОМЕР
