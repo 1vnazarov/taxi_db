@@ -15,7 +15,7 @@ EXEC sp_executesql @sql;
 drop table Employees
 drop table Cars
 drop table Tariffs
-drop table Salary
+--drop table Salary
 drop table Passengers
 drop table Calls
 */
